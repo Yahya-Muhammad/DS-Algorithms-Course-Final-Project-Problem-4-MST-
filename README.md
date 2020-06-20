@@ -4,19 +4,26 @@ Note: The problem statement, solution’s pseudo code, sample runs, etc can be f
 Program Structure:
 
 ● class LinkedList<T>
+  
 A class representing a linked list of generic nodes.
 
 ● class Node<T>
+  
 A class representing the generic nodes of the linked list.
 
 ● class Edge
+
 A class representing the edges of the graph.
+
 Data:
 - int from: an integer representing the “from” node.
 - int to: an integer representing the “to” node.
 - int cost: an integer representing the cost of removing the edge. (abs(to - from))
 
-● class MinSpanningTree The driver class.
+● class MinSpanningTree
+
+The driver class.
+
 Behavior:
 - void quickSortDescByCost(Edge[] arr, int start, int end): a method that sorts the edges
 descendingly according to their cost.
